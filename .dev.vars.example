@@ -1,0 +1,9 @@
+# Copy to .dev.vars for local testing with `npm run preview`.
+# On Cloudflare Pages, you only need GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.
+# Session and QR secrets are auto-generated and stored securely in D1.
+
+GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+
+# Localhost-only test login (automatically ignored in production):
+DEV_AUTH=true
